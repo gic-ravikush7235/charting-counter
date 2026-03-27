@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>108 Mala Counter</title>
+    <link rel="stylesheet" href="mala.css">
+</head>
+<body>
+
+
+
+<center><div class="header">🧿 Chanting Counter</div></center>
+
+
+<div class="container">
+  
+    <div class="box">
+        <div class="title">Current Round </div>
+        <div class="card" id="count">0</div>
+
+        <div class="buttons">
+            <button class="plus" onclick="increaseCount()">➕</button>
+            <button class="minus" onclick="decreaseCount()">➖</button>
+        </div>
+
+        <button class="reset" onclick="resetAll()">Reset</button>
+    </div>
+
+    
+    <div class="box">
+        <div class="title">Total Rounds</div>
+        <div class="card" id="round">0</div>
+
+        <div class="buttons">
+            <button class="plus" onclick="increaseRound()">➕</button>
+            <button class="minus" onclick="decreaseRound()">➖</button>
+        </div>
+    </div>
+
+</div>
+
+<script src="mala.js"></script>
+
+        
+        
+    
+</body>
+</html>
